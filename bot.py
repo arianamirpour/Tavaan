@@ -8,7 +8,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram.utils.markdown import hbold
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 from openai import OpenAI
 import os
@@ -18,7 +18,7 @@ TOKEN ="6695135667:AAF93rJDAp7Hdoig_gIQnYJK5sREx5jcMlU"
 
 # All handlers should be attached to the Router (or Dispatcher)
 dp = Dispatcher()
-load_dotenv()
+# load_dotenv()
 
 
 
